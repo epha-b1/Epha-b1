@@ -64,7 +64,7 @@ Here are some ideas to get you started:
 ---
 
 ### My Portfolio Website :
-  -comming soon ....
+  -coming soon ....
 <!-- **WebSite:** &nbsp; [surafel.netlify.app](https://surafel.netlify.app) -->
 
 
