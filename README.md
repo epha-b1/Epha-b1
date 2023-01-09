@@ -19,21 +19,21 @@ Here are some ideas to get you started:
 -->
 
 <div id="header" align="center">
-  <h1> Hi 👋 I'm Surafel Kindu.</h1>
+  <h1 color:red> Hello 👋 I'm Ephrem Belaineh.</h1>
   <div id="badges">
-    <a href="https://www.linkedin.com/in/surafel-kindu-11889415b/">
+    <a href="https://www.linkedin.com/in/ephrem-belaineh-92a76b24b/">
       <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
     </a>
-    <a href="https://www.instagram.com/surafel_kindu/">
+    <a href="https://www.instagram.com/epha_729/">
       <img src="https://img.shields.io/badge/Instagram-red?style=for-the-badge&logo=instagram&logoColor=white" alt="LinkedIn Badge"/>
     </a>
   </div>
-  <img src="https://komarev.com/ghpvc/?username=Surafeljava&style=flat-square&color=blue" alt=""/>
+<!--   <img src="https://komarev.com/ghpvc/?username=Surafeljava&style=flat-square&color=blue" alt=""/> -->
 </div>
 
 ---
 
-### 💻 &nbsp; About Me :
+### 👨‍💻 &nbsp; About Me :
 #### I am a Software Engineer:
 - Front-end web and mobile application developer (React, React Native, Flutter)
 - Back-end Node and Django developer
@@ -64,6 +64,7 @@ Here are some ideas to get you started:
 ---
 
 ### My Portfolio Website :
+  -comming soon ....
 <!-- **WebSite:** &nbsp; [surafel.netlify.app](https://surafel.netlify.app) -->
 
 
