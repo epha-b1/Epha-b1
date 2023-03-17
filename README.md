@@ -35,7 +35,7 @@ Here are some ideas to get you started:
 
 ### 👨‍💻 &nbsp; About Me :
 #### I am a Software Engineer:
-- Front-end web and mobile application developer (React, React Native, Flutter)
+- Front-end web and mobile application developer (React, Flutter)
 - Back-end Node and Django developer
 - UI/UX Designer
 ---
