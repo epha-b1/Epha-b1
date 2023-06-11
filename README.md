@@ -37,7 +37,7 @@ Here are some ideas to get you started:
 #### I am a Software Engineer:
 - Front-end web and mobile application developer (React, Flutter)
 - Back-end Node developer
-- UI/UX Designer
+<!-- - UI/UX Designer -->
 ---
 
 ### :hammer_and_wrench: Languages and Tools :
