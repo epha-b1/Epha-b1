@@ -34,7 +34,7 @@ Here are some ideas to get you started:
 ---
 
 ### 👨‍💻 &nbsp; About Me :
-#### I am a Software Engineer:
+#### I am an Enthusiastic Full-Stack Developer and DataScientist :
 - Front-end web and mobile application developer (React, Flutter)
 - Back-end Node developer
 <!-- - UI/UX Designer -->
