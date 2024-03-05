@@ -2,22 +2,6 @@
 
 
 
-
-<!--
-**Surafeljava/Surafeljava** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 <div id="header" align="center">
   <h1 color:red> Hello 👋 I'm Ephrem Belaineh.</h1>
   <div id="badges">
@@ -68,12 +52,10 @@ Here are some ideas to get you started:
 <!-- **WebSite:** &nbsp; [surafel.netlify.app](https://surafel.netlify.app) -->
 
 
-<!--
-**epha-b1/Epha-b1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=epha-b1&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=epha-b1&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=epha-b1&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-I am a Software Engineer:
-- Front-end web and mobile application developer (React, React Native, Flutter)
-- Back-end Node and Django developer
-- UI/UX Designer
-
--->
+---
+[![](https://visitcount.itsvg.in/api?id=epha-b1&label=Profile%20Views&pretty=false)](https://visitcount.itsvg.in)
