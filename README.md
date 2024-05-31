@@ -1,7 +1,7 @@
 ![](assets/Bottom_up.svg)
 
 <!--   my-icons -->
-<p align="center" style="font-size: 24px;">
+<p align="center" style="font-size: 24.1px;">
   Hello 👋 I'm Ephrem.
 </p>
 
