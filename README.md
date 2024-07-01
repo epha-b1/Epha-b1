@@ -109,7 +109,7 @@
 
 ---
 
-[![](https://visitcount.itsvg.in/api?id=epha-b1&label=Profile%20Views&pretty=false)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=epha-b1&label=Profile%20Views&pretty=true)](https://visitcount.itsvg.in)
 
 <div id="header" align="center">
 <p align="center" style="font-size: 24px;">
