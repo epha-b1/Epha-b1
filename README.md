@@ -105,7 +105,6 @@
 
 # 📊 GitHub Stats:
 
-![](https://github-readme-streak-stats.herokuapp.com/?user=epha-b1&theme=dark&hide_border=false)<br/>
 [![GitHub Streak](https://streak-stats.demolab.com/?user=epha-b1)](https://git.io/streak-stats)
 ---
 
