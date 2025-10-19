@@ -1,0 +1,52 @@
+name: 🔥 Keep Streak Alive
+
+on:
+  schedule:
+    # Run at 10:00 AM UTC (adjust for your timezone)
+    - cron: "0 10 * * *"
+    # Run at 6:00 PM UTC (adjust for your timezone)
+    - cron: "0 18 * * *"
+
+  # Allow manual trigger from Actions tab
+  workflow_dispatch:
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name "Ephrem Belaineh"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Create streak tracker file
+        run: |
+          TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
+          echo "[$TIMESTAMP] 🔥 Auto-commit from GitHub Actions - Keeping the streak alive!" >> streak_tracker.log
+          echo "----------------------------------------" >> streak_tracker.log
+
+      - name: Commit changes
+        run: |
+          git add streak_tracker.log
+          CURRENT_DATE=$(date '+%Y-%m-%d')
+          CURRENT_TIME=$(date '+%H:%M:%S')
+          git commit -m "🔥 Auto-commit: Maintaining streak on $CURRENT_DATE at $CURRENT_TIME" || echo "No changes to commit"
+
+      - name: Push changes
+        run: |
+          git push origin main || git push origin master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Show commit status
+        if: always()
+        run: |
+          echo "✅ Workflow completed successfully!"
+          echo "Latest commits:"
+          git log --oneline -n 5
