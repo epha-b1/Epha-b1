@@ -2,13 +2,10 @@ name: 🔥 Keep Streak Alive
 
 on:
   schedule:
-    # Runs at 10:00 AM UTC
     - cron: "0 10 * * *"
-    # Runs at 6:00 PM UTC
     - cron: "0 18 * * *"
   workflow_dispatch:
 
-# Essential: Gives the bot permission to push changes to your repo
 permissions:
   contents: write
 
@@ -19,8 +16,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Configure Git
         run: |
@@ -29,24 +24,14 @@ jobs:
 
       - name: Update streak tracker file
         run: |
-          TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
-          echo "[$TIMESTAMP] 🔥 Streak maintained!" >> streak_tracker.log
+          echo "$(date '+%Y-%m-%d %H:%M:%S') 🔥 Streak maintained!" >> streak_tracker.log
 
-      - name: Commit and Push
+      - name: Force Commit and Push
         run: |
-          # The -f flag ignores your .gitignore settings for this specific file
+          # The -f forces git to ignore the .gitignore file
           git add -f streak_tracker.log
           
-          # Only commit if there are actual changes to avoid errors
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "🔥 Auto-commit: $(date '+%Y-%m-%d %H:%M:%S')"
-            git push origin HEAD
-          fi
-
-      - name: Show status
-        if: always()
-        run: |
-          echo "✅ Workflow finished!"
-          git log -n 1
+          # Only commit if there are changes, otherwise do nothing
+          git commit -m "🔥 Auto-commit: $(date '+%Y-%m-%d %H:%M:%S')" || exit 0
+          
+          git push
